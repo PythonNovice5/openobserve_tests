@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Pytest cache and HTML reports
+.pytest_cache/
+*.html
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Downloaded files or output folders
+k8slog_json.json
+k8slog_json.json.zip
+upload_time.txt
+data
+assets
+
