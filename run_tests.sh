@@ -17,10 +17,6 @@ echo "Installing dependencies..."
 pip install -r requirements.txt
 
 echo "=== [2/3] Running API tests ==="
-pytest api_tests/test_search_api.py -v --html=report.html
+pytest api_tests/test_search_api.py -v -s --html=report.html
 
-echo "=== [3/3] Cleaning up Docker container ==="
-# docker stop openobserve-test
-# docker rm openobserve-test
 
-echo "All done."
