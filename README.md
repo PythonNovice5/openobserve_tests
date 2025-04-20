@@ -19,7 +19,7 @@ This repository includes a simple shell script to automate the setup of an OpenO
 - `k8slog_json.json`: Unzipped JSON logs
 - `upload_time.txt`: Timestamp of the last data upload
 
-## 🐚 How to Use
+##  How to Use
 
 ### Setup OpenObserve server
 
@@ -45,6 +45,10 @@ The script performs:
 - Creates a new Python virtual environment if not already present
 - Activates the environment
 - Installs dependencies from requirements.txt
-- API Testing
 - Executes tests located in api_tests/test_search_api.py
 - Generates an HTML report (report.html)
+
+```bash
+./cleanup.sh
+```
+- Cleans up the docker container
