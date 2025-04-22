@@ -1,3 +1,5 @@
 requests
 pytest
 pytest-html
+playwright
+pytest-playwright

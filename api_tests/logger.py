@@ -12,8 +12,8 @@ def get_logger(name: str = "api_test"):
         ch.setLevel(logging.INFO)
 
         # Create a file handler for writing logs to test.log
-        log_dir = os.path.abspath('.')  # Root directory
-        log_file = os.path.join(log_dir, 'test.log')
+        log_dir = os.path.abspath(os.path.join('.', 'api_tests'))
+        log_file = os.path.join(log_dir, 'api_test.log')
 
         fh = logging.FileHandler(log_file, mode='w')
         fh.setLevel(logging.INFO)
